@@ -3,18 +3,29 @@
 // nickelValue = piggyBank.nickels / 20;
 // dimeValue =  piggyBank.dimes / 10;
 // pennyValue = piggyBank.pennies / 100;
-
-
 // let dollarAmount = quarterValue + nickelValue + dimeValue + pennyValue;
 // console.log(dollarAmount);
 
-// const dollarAmount = 15.06;
 // const piggyBank = {};
-// piggyBank.quarters = 24;
-// piggyBank.nickels = 32;
-// piggyBank.dimes = 65;
-// piggyBank.pennies = 96;
+// const coinConversion = (dollarAmount) => {
+//     let quarters = parseInt(dollarAmount / .25);
+//     let newAmount = dollarAmount - quarters * .25;
+//     piggyBank.quarters = quarters;
+//     let dimes = parseInt(newAmount / .1);
+//     let dnewamount = newAmount - dimes * .10;
+//     piggyBank.dimes = dimes;
+//     let nickels = parseInt(dnewamount / .05);
+//     let nnewamount = dnewamount - nickels * .05;
+//     piggyBank.nickels = nickels;
+//     let pennies = parseInt(nnewamount / .01);
+//     let pnewamount = nnewamount - pennies * .01;
+//     piggyBank.pennies = pennies
+// }
+// coinConversion(15.06);
 // console.log(piggyBank);
+
+
+
 const scores = [82, 71, 62, 95, 55, 98, 69, 72, 78, 84, 64, 58, 87, 60]
 const grades = {
     a: 0,
